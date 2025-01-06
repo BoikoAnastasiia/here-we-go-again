@@ -1,1 +1,2 @@
-console.log('Hello World');
+var x = 1;
+console.log(x);
