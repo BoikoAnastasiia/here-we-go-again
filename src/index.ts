@@ -1,8 +1,5 @@
-let age: number = 20;
-if (age > 18) {
-  age += 80;
-} else {
-  age -= 80;
-}
+let sales: number = 456_777_333;
+let course: string = 'TypeScript';
+let isPublished: boolean = true;
 
-console.log(age);
+console.log(sales, course, isPublished);
