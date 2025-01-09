@@ -1,9 +1,8 @@
 let age: number = 20;
-let personName: string = 'John';
-let isStudent: boolean = true;
+if (age > 18) {
+  age += 80;
+} else {
+  age -= 80;
+}
 
-console.log(age, personName, isStudent);
-console.log('Hello World');
-const x = 1;
-
-console.log(x);
+console.log(age);
